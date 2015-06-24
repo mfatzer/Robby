@@ -1,0 +1,37 @@
+/*
+ * TimerC.h
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#ifndef TIMERC_H_
+#define TIMERC_H_
+
+#include "Logger.h"
+
+
+class TimerC {
+public:
+	TimerC();
+	virtual ~TimerC();
+
+	void initialize();
+	void setISR(void (*isr)(void));
+	void runISR();
+
+	void enableInterrupt();
+	void disableInterrupt();
+
+	void setTimerPeriod(unsigned int period);
+	void resetTimer();
+
+private:
+	const Logger m_logger;
+	void (*m_isr)(void);
+};
+
+// Instanz erzeugen
+extern TimerC LeoTimer3;
+
+#endif /* TIMERC_H_ */

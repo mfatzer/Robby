@@ -1,0 +1,19 @@
+/*
+ * Timer1.h
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#ifndef TIMER1_H_
+#define TIMER1_H_
+
+class Timer1 {
+public:
+	Timer1(void (*isr)(void));
+	virtual ~Timer1();
+
+	void initialize();
+};
+
+#endif /* TIMER1_H_ */

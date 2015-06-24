@@ -1,0 +1,43 @@
+/*
+ * Motor.cpp
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#include "Motor.h"
+
+const int fullSpeed = 2000;
+const int minSpeed = 15000;
+const int MAX_SPEED = 65535;
+
+
+Motor::Motor(const char* name, const int stepPin, const int directionPin, const bool reverseDirection, TimerIf& timer)
+: m_logger(name), m_stepperMotor(name, stepPin, directionPin, reverseDirection), m_timer(timer)
+{
+}
+
+Motor::~Motor() {
+	m_timer.disableInterrupt();
+}
+
+void Motor::setup() {
+	m_timer.initialize();
+	m_timer.setISR(this);
+	m_timer.enableInterrupt();
+}
+
+void Motor::execute() {
+	m_stepperMotor.step();
+}
+
+void Motor::setDirection(Motor::Direction dir) {
+	m_stepperMotor.setDirection(dir);
+}
+
+void Motor::setSpeed(unsigned int speed) {
+	if (speed > MAX_SPEED) {
+		speed = MAX_SPEED;
+	}
+	m_timer.setTimerPeriod(MAX_SPEED - speed);
+}

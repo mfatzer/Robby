@@ -1,0 +1,23 @@
+/*
+ * Logger.h
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#ifndef LOGGER_H_
+#define LOGGER_H_
+
+class Logger {
+public:
+	Logger(const char* name);
+	virtual ~Logger();
+
+protected:
+	virtual void log(char* info);
+
+private:
+	const char* m_name;
+};
+
+#endif /* LOGGER_H_ */

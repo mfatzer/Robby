@@ -1,0 +1,32 @@
+/*
+ * Timer1.h
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#ifndef TIMER1_H_
+#define TIMER1_H_
+
+class TimerA {
+public:
+	TimerA();
+	virtual ~TimerA();
+
+	void initialize();
+	void setISR(void (*isr)(void));
+	void runISR();
+
+	void enableInterrupt();
+	void disableInterrupt();
+
+	void setTimerPeriod(unsigned int period);
+
+private:
+	void (*m_isr)(void);
+};
+
+// Instanz erzeugen
+TimerA Timer1;
+
+#endif /* TIMER1_H_ */

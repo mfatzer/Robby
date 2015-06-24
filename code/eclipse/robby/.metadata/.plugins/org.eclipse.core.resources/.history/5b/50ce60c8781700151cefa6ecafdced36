@@ -1,0 +1,22 @@
+/*
+ * StepperMotor.h
+ *
+ *  Created on: 20.06.2015
+ *      Author: Martin
+ */
+
+#ifndef STEPPERMOTOR_H_
+#define STEPPERMOTOR_H_
+
+class StepperMotor {
+public:
+	StepperMotor();
+	virtual ~StepperMotor();
+
+	void step();
+
+private:
+	int dir;
+};
+
+#endif /* STEPPERMOTOR_H_ */

@@ -1,0 +1,82 @@
+// Do not remove the include below
+#include "Base.h"
+//#include "Motor.h"
+#include "StepperMotor.h"
+#include "TimerA.h"
+#include "TimerC.h"
+#include "Logger.h"
+
+class M_ISR : public TimerExecutable {
+public:
+	M_ISR(StepperMotor& stepperMotor)
+	: m_stepperMotor(stepperMotor)
+	{;}
+
+	~M_ISR() {;}
+
+	virtual void execute() {
+		m_stepperMotor.step();
+	}
+
+private:
+	StepperMotor& m_stepperMotor;
+};
+
+
+
+Logger setupLogger("setup()");
+Logger loopLogger("loop()");
+
+//Motor motor1("Motor1", 10, 11, false, LeoTimer1);
+//Motor motor2("Motor2", 8, 9, true, LeoTimer3);
+
+StepperMotor motor1("Motor1", 10, 11, false);
+StepperMotor motor2("Motor2", 8, 9, true);
+
+M_ISR isr1(motor1);
+M_ISR isr2(motor2);
+
+
+//The setup function is called once at startup of the sketch
+void setup()
+{
+	Serial.begin(57600);
+//	while (!Serial) {
+//		;
+//	}
+	setupLogger.log("Start");
+	LeoTimer1.initialize();
+	LeoTimer1.setISR(&isr1);
+	LeoTimer3.initialize();
+	LeoTimer3.setISR(&isr2);
+	motor1.setup();
+	motor2.setup();
+	motor1.setDirection(FORWARD);
+	motor2.setDirection(FORWARD);
+	LeoTimer1.setTimerPeriod(65535);
+	LeoTimer1.enableInterrupt();
+	LeoTimer3.setTimerPeriod(65535);
+	LeoTimer3.enableInterrupt();
+}
+
+// The loop function is called in an endless loop
+void loop()
+{
+	delay(1000);
+//	motor1.setDirection(FORWARD);
+//	motor2.setDirection(FORWARD);
+//	for (int i = 16000; i >= 2000; i-=100) {
+//		LeoTimer1.setTimerPeriod(i);
+//		LeoTimer3.setTimerPeriod(i);
+//		delay(100);
+//	}
+//	motor1.setDirection(STOP);
+//	motor2.setDirection(STOP);
+//	delay(500);
+//	motor1.setDirection(FORWARD);
+//	motor2.setDirection(FORWARD);
+//	delay(200);
+//	motor1.setDirection(BACKWARD);
+//	motor2.setDirection(BACKWARD);
+//	delay(200);
+}

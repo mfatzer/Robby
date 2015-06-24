@@ -1,0 +1,17 @@
+/*
+ * Timer.h
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#ifndef TIMER_H_
+#define TIMER_H_
+
+class Timer {
+public:
+	Timer();
+	virtual ~Timer();
+};
+
+#endif /* TIMER_H_ */

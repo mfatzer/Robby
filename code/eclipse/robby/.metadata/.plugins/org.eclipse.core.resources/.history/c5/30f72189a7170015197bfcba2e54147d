@@ -1,0 +1,73 @@
+/*
+ * StepperMotor.cpp
+ *
+ *  Created on: 20.06.2015
+ *      Author: Martin
+ */
+
+#include "StepperMotor.h"
+#include "Arduino.h"
+
+void delay_1us();
+
+const int STEP_DELAY = 800;
+
+
+StepperMotor::StepperMotor(const int stepPin, const int directionPin, const boolean reverseDirection)
+: m_stepPin(stepPin), m_directionPin(directionPin), m_direction(1)
+{
+}
+
+StepperMotor::~StepperMotor() {
+}
+
+void StepperMotor::setup() {
+	pinMode(m_stepPin, OUTPUT);
+	pinMode(m_directionPin, OUTPUT);
+	digitalWrite(m_stepPin, LOW);
+	digitalWrite(m_directionPin, LOW);
+}
+
+void StepperMotor::step() {
+	// do nothing if motor is stopped
+	if (m_direction == 0) {
+		return;
+	}
+	digitalWrite(m_stepPin, HIGH);
+	delayMicroseconds(STEP_DELAY);
+	digitalWrite(m_stepPin, LOW);
+	delayMicroseconds(STEP_DELAY);
+}
+
+void StepperMotor::setDirection(int dir) {
+	m_direction = dir;
+	if (dir > 0) {
+		digitalWrite(m_directionPin, HIGH);
+	}
+	else if (dir < 0) {
+		digitalWrite(m_directionPin, LOW);
+	}
+}
+
+// 16 single cycle instructions = 1us at 16Mhz
+void delay_1us()
+{
+  __asm__ __volatile__ (
+    "nop" "\n\t"
+    "nop" "\n\t"
+    "nop" "\n\t"
+    "nop" "\n\t"
+    "nop" "\n\t"
+    "nop" "\n\t"
+    "nop" "\n\t"
+    "nop" "\n\t"
+    "nop" "\n\t"
+    "nop" "\n\t"
+    "nop" "\n\t"
+    "nop" "\n\t"
+    "nop" "\n\t"
+    "nop" "\n\t"
+    "nop" "\n\t"
+    "nop");
+}
+

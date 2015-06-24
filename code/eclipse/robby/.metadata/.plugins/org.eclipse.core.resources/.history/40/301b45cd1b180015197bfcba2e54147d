@@ -1,0 +1,29 @@
+/*
+ * Timer1.cpp
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#include "Timer1.h"
+#include "Arduino.h"
+
+
+Timer1::Timer1(void (*isr)(void)) {
+	ISR(TIMER1_COMPA_vect)
+	{
+		isr();
+	}
+}
+
+Timer1::~Timer1() {
+}
+
+// Timer Prescaler auf 8 -> 2MHz
+// TimerCounter wird automatisch geresettet
+// TimerCounter wird auf 0 gesetzt
+void Timer1::initialize() {
+	TCCR1A = 0;
+	TCCR1B = (1 << WGM12) | (1 << CS11);
+	TCNT1  = 0;
+}

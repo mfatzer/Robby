@@ -1,0 +1,50 @@
+// Do not remove the include below
+#include "Base.h"
+#include "Motor.h"
+#include "TimerA.h"
+#include "TimerC.h"
+#include "Logger.h"
+
+Logger setupLogger("setup()");
+Logger loopLogger("loop()");
+
+Motor motor1("Motor1", 10, 11, false, LeoTimer1);
+//Motor motor2("Motor2", 8, 9, true, LeoTimer3);
+
+const int fullSpeed = 60000;
+const int minSpeed = 50000;
+
+
+//The setup function is called once at startup of the sketch
+void setup()
+{
+	Serial.begin(57600);
+	while (!Serial) {
+		;
+	}
+	setupLogger.log("Start");
+	motor1.setup();
+//	motor2.setup();
+	motor1.setDirection(FORWARD);
+	motor1.setSpeed(55);
+//	motor2.setDirection(FORWARD);
+}
+
+// The loop function is called in an endless loop
+void loop()
+{
+	motor1.setDirection(FORWARD);
+	motor1.setSpeed(55);
+
+//	for (int i = minSpeed; i < fullSpeed; i += 1000) {
+//		motor1.setSpeed(i);
+////		motor2.setSpeed(i);
+//		delay(200);
+//	}
+//	for (int i = fullSpeed; i > minSpeed; i -= 1000) {
+//		motor1.setSpeed(i);
+////		motor2.setSpeed(i);
+//		delay(200);
+//	}
+
+}

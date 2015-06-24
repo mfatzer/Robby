@@ -1,0 +1,36 @@
+/*
+ * Motor.h
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#ifndef MOTOR_H_
+#define MOTOR_H_
+
+#include "TimerIf.h";
+#include "StepperMotor.h"
+#include "Logger.h"
+#include "MotorDirection.h"
+
+
+class Motor : private TimerExecutable {
+public:
+	typedef MotorDirection Direction;
+
+	Motor(const char* name, const int stepPin, const int directionPin, const bool reverseDirection, TimerIf& timer);
+	virtual ~Motor();
+
+	void setup();
+	virtual void execute();
+
+	void setDirection(Direction dir);
+	void setSpeed(unsigned int speed);
+
+private:
+	const Logger m_logger;
+	StepperMotor m_stepperMotor;
+	TimerIf& m_timer;
+};
+
+#endif /* MOTOR_H_ */

@@ -1,0 +1,18 @@
+/*
+ * Timer1.cpp
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#include "Timer1.h"
+
+Timer1::Timer1() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Timer1::~Timer1() {
+	// TODO Auto-generated destructor stub
+}
+

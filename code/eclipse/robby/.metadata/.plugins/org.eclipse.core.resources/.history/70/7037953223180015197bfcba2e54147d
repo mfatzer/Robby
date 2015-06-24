@@ -1,0 +1,62 @@
+/*
+ * Timer1.cpp
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#include "TimerA.h"
+#include "Arduino.h"
+
+
+const unsigned int MIN_SPEED_PERIOD = 65535;
+
+ISR(TIMER1_COMPA_vect) {
+	Timer1.runISR();
+}
+
+TimerA::TimerA() {
+	m_isr = NULL;
+}
+
+TimerA::~TimerA() {
+}
+
+// Timer Prescaler auf 8 -> 2MHz
+// TimerCounter wird automatisch geresettet
+// TimerCounter wird auf 0 gesetzt
+void TimerA::initialize() {
+	TCCR1A = 0;
+	TCCR1B = (1 << WGM12) | (1 << CS11);
+	TCNT1  = 0;
+}
+
+void TimerA::setISR(void (*isr)(void)) {
+	m_isr = isr;
+}
+
+void TimerA::runISR() {
+	(*m_isr)();
+}
+
+void TimerA::enableInterrupt() {
+	TIMSK1 |= (1 << OCIE1A);
+}
+
+void TimerA::disableInterrupt() {
+	TIMSK1 &= ~(1 << OCIE1A);
+}
+
+void TimerA::setTimerPeriod(unsigned int period) {
+	if (period > MIN_SPEED_PERIOD) {
+		period = MIN_SPEED_PERIOD;
+	}
+	OCR1A = period;
+	if (TCNT1 > period) {
+		resetTimer();
+	}
+}
+
+void TimerA::resetTimer() {
+	TCNT1 = 0;
+}

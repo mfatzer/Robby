@@ -1,0 +1,23 @@
+/*
+ * Timer.cpp
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#include "Timer.h"
+#include "Arduino.h"
+
+
+Timer::Timer() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Timer::~Timer() {
+	// TODO Auto-generated destructor stub
+}
+
+void Timer::setup() {
+
+}

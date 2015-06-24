@@ -1,0 +1,26 @@
+/*
+ * MotorDirection.h
+ *
+ *  Created on: 22.06.2015
+ *      Author: Martin
+ */
+
+#ifndef MOTORDIRECTION_H_
+#define MOTORDIRECTION_H_
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+enum MotorDirection
+{
+	FORWARD,
+	BACKWARD,
+	STOP
+};
+
+#ifdef __cplusplus
+} // extern "C"
+#endif
+
+#endif /* MOTORDIRECTION_H_ */

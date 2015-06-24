@@ -1,0 +1,18 @@
+/*
+ * MotorDirection.cpp
+ *
+ *  Created on: 22.06.2015
+ *      Author: Martin
+ */
+
+#include "MotorDirection.h"
+
+MotorDirection::MotorDirection() {
+	// TODO Auto-generated constructor stub
+
+}
+
+MotorDirection::~MotorDirection() {
+	// TODO Auto-generated destructor stub
+}
+

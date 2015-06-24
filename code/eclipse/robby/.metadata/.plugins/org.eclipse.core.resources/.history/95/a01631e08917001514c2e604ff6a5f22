@@ -1,0 +1,41 @@
+// Do not remove the include below
+#include "Base.h"
+#include "StepperMotor.h"
+
+StepperMotor motor1(8, 9);
+StepperMotor motor2(10, 11);
+
+//The setup function is called once at startup of the sketch
+void setup()
+{
+//	Serial.begin(9600);
+//	Serial.println("Setup");
+	motor1.setup();
+	motor2.setup();
+}
+
+// The loop function is called in an endless loop
+void loop()
+{
+	motor2.setDirection(-1);
+//	for (int i = 0; i < 200; ++i) {
+//		motor2.step();
+//	}
+
+	delay(500);
+
+	motor2.setDirection(0);
+//	for (int i = 0; i < 10; ++i) {
+//		motor2.step();
+//	}
+
+	delay(500);
+
+	motor2.setDirection(1);
+//	for (int i = 0; i < 200; ++i) {
+//		motor2.step();
+//	}
+
+	delay(500);
+
+}

@@ -1,0 +1,27 @@
+/*
+ * TimerIf.h
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#ifndef TIMERIF_H_
+#define TIMERIF_H_
+
+
+class TimerIf {
+public:
+	virtual ~TimerIf()=0;
+
+	void initialize()=0;
+	void setISR(void (*isr)(void))=0;
+	void runISR()=0;
+
+	void enableInterrupt()=0;
+	void disableInterrupt()=0;
+
+	void setTimerPeriod(unsigned int period)=0;
+	void resetTimer()=0;
+};
+
+#endif /* TIMERIF_H_ */

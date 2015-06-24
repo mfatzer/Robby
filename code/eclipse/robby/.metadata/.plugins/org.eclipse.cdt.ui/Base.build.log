@@ -1,0 +1,44 @@
+21:52:24 **** Incremental Build of configuration Release for project Base ****
+make all 
+Building file: ../Base.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Base.cpp.d" -MT"Base.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Base.cpp"  -o  "Base.cpp.o"
+Finished building: ../Base.cpp
+ 
+Starting combiner
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega32u4  -o "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"    ./Base.cpp.o ./Logger.cpp.o ./MPU.cpp.o ./Motor.cpp.o ./StepperMotor.cpp.o ./TimerA.cpp.o ./TimerC.cpp.o ./brobot.c.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar   "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar" "-LC:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release" -lm
+Finished building: Base.elf
+ 
+Create eeprom image
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.eep"
+Finished building: Base.eep
+ 
+Create Flash image (ihex format)
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.hex"
+Finished building: Base.hex
+ 
+Building target: Base
+Printing size:
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-size" -A "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"
+C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf  :
+section            size      addr
+.data               362   8388864
+.text              9036         0
+.bss                379   8389226
+.comment             17         0
+.debug_aranges     4456         0
+.debug_info       98585         0
+.debug_abbrev     15508         0
+.debug_line       17311         0
+.debug_frame      14476         0
+.debug_str        28291         0
+.debug_loc        69679         0
+.debug_ranges      4488         0
+Total            262588
+
+
+Finished building target: Base
+ 
+
+21:52:24 Build Finished (took 749ms)
+

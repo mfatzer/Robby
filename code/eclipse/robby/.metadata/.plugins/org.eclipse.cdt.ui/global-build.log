@@ -1,0 +1,758 @@
+21:28:59 **** Build of configuration Release for project Base ****
+make all 
+Building file: ../Base.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Base.cpp.d" -MT"Base.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Base.cpp"  -o  "Base.cpp.o"
+Finished building: ../Base.cpp
+ 
+Building file: ../Logger.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Logger.cpp.d" -MT"Logger.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Logger.cpp"  -o  "Logger.cpp.o"
+Finished building: ../Logger.cpp
+ 
+Building file: ../MPU.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"MPU.cpp.d" -MT"MPU.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../MPU.cpp"  -o  "MPU.cpp.o"
+Finished building: ../MPU.cpp
+ 
+Building file: ../Motor.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Motor.cpp.d" -MT"Motor.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Motor.cpp"  -o  "Motor.cpp.o"
+Finished building: ../Motor.cpp
+ 
+Building file: ../StepperMotor.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"StepperMotor.cpp.d" -MT"StepperMotor.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../StepperMotor.cpp"  -o  "StepperMotor.cpp.o"
+Finished building: ../StepperMotor.cpp
+ 
+Building file: ../TimerA.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"TimerA.cpp.d" -MT"TimerA.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../TimerA.cpp"  -o  "TimerA.cpp.o"
+Finished building: ../TimerA.cpp
+ 
+Building file: ../TimerC.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"TimerC.cpp.d" -MT"TimerC.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../TimerC.cpp"  -o  "TimerC.cpp.o"
+Finished building: ../TimerC.cpp
+ 
+Building file: ../brobot.c
+Starting C compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -c -g -Os -w -ffunction-sections -fdata-sections -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"brobot.c.d" -MT"brobot.c.d" -D__IN_ECLIPSE__=1 "../brobot.c"  -o  "brobot.c.o"
+Finished building: ../brobot.c
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/libraries/Wire/utility/twi.c
+Starting C compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -c -g -Os -w -ffunction-sections -fdata-sections -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Libraries/Wire/utility/twi.c.d" -MT"Libraries/Wire/utility/twi.c.d" -D__IN_ECLIPSE__=1 "C:/bin/Arduino/hardware/arduino/avr/libraries/Wire/utility/twi.c"  -o  "Libraries/Wire/utility/twi.c.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/libraries/Wire/utility/twi.c
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/libraries/Wire/Wire.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Libraries/Wire/Wire.cpp.d" -MT"Libraries/Wire/Wire.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/libraries/Wire/Wire.cpp"  -o  "Libraries/Wire/Wire.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/libraries/Wire/Wire.cpp
+ 
+Building file: ../Libraries/MPU6050/MPU6050.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Libraries/MPU6050/MPU6050.cpp.d" -MT"Libraries/MPU6050/MPU6050.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Libraries/MPU6050/MPU6050.cpp"  -o  "Libraries/MPU6050/MPU6050.cpp.o"
+Finished building: ../Libraries/MPU6050/MPU6050.cpp
+ 
+Building file: ../Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.d" -MT"Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp"  -o  "Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o"
+Finished building: ../Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp
+ 
+Building file: ../Libraries/I2Cdev/I2Cdev.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Libraries/I2Cdev/I2Cdev.cpp.d" -MT"Libraries/I2Cdev/I2Cdev.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Libraries/I2Cdev/I2Cdev.cpp"  -o  "Libraries/I2Cdev/I2Cdev.cpp.o"
+Finished building: ../Libraries/I2Cdev/I2Cdev.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/CDC.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/CDC.cpp.d" -MT"arduino/CDC.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/CDC.cpp"  -o  "arduino/CDC.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/CDC.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HID.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/HID.cpp.d" -MT"arduino/HID.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HID.cpp"  -o  "arduino/HID.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HID.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/HardwareSerial.cpp.d" -MT"arduino/HardwareSerial.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp"  -o  "arduino/HardwareSerial.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/HardwareSerial0.cpp.d" -MT"arduino/HardwareSerial0.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp"  -o  "arduino/HardwareSerial0.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/HardwareSerial1.cpp.d" -MT"arduino/HardwareSerial1.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp"  -o  "arduino/HardwareSerial1.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/HardwareSerial2.cpp.d" -MT"arduino/HardwareSerial2.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp"  -o  "arduino/HardwareSerial2.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/HardwareSerial3.cpp.d" -MT"arduino/HardwareSerial3.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp"  -o  "arduino/HardwareSerial3.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/IPAddress.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/IPAddress.cpp.d" -MT"arduino/IPAddress.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/IPAddress.cpp"  -o  "arduino/IPAddress.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/IPAddress.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/Print.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/Print.cpp.d" -MT"arduino/Print.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/Print.cpp"  -o  "arduino/Print.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/Print.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/Stream.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/Stream.cpp.d" -MT"arduino/Stream.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/Stream.cpp"  -o  "arduino/Stream.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/Stream.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/Tone.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/Tone.cpp.d" -MT"arduino/Tone.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/Tone.cpp"  -o  "arduino/Tone.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/Tone.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/USBCore.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/USBCore.cpp.d" -MT"arduino/USBCore.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/USBCore.cpp"  -o  "arduino/USBCore.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/USBCore.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/WInterrupts.c
+Starting C compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -c -g -Os -w -ffunction-sections -fdata-sections -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/WInterrupts.c.d" -MT"arduino/WInterrupts.c.d" -D__IN_ECLIPSE__=1 "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/WInterrupts.c"  -o  "arduino/WInterrupts.c.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/WInterrupts.c
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/WMath.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/WMath.cpp.d" -MT"arduino/WMath.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/WMath.cpp"  -o  "arduino/WMath.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/WMath.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/WString.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/WString.cpp.d" -MT"arduino/WString.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/WString.cpp"  -o  "arduino/WString.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/WString.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/abi.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/abi.cpp.d" -MT"arduino/abi.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/abi.cpp"  -o  "arduino/abi.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/abi.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/hooks.c
+Starting C compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -c -g -Os -w -ffunction-sections -fdata-sections -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/hooks.c.d" -MT"arduino/hooks.c.d" -D__IN_ECLIPSE__=1 "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/hooks.c"  -o  "arduino/hooks.c.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/hooks.c
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/main.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/main.cpp.d" -MT"arduino/main.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/main.cpp"  -o  "arduino/main.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/main.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/new.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/new.cpp.d" -MT"arduino/new.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/new.cpp"  -o  "arduino/new.cpp.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/new.cpp
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/wiring.c
+Starting C compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -c -g -Os -w -ffunction-sections -fdata-sections -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/wiring.c.d" -MT"arduino/wiring.c.d" -D__IN_ECLIPSE__=1 "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/wiring.c"  -o  "arduino/wiring.c.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/wiring.c
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/wiring_analog.c
+Starting C compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -c -g -Os -w -ffunction-sections -fdata-sections -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/wiring_analog.c.d" -MT"arduino/wiring_analog.c.d" -D__IN_ECLIPSE__=1 "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/wiring_analog.c"  -o  "arduino/wiring_analog.c.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/wiring_analog.c
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/wiring_digital.c
+Starting C compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -c -g -Os -w -ffunction-sections -fdata-sections -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/wiring_digital.c.d" -MT"arduino/wiring_digital.c.d" -D__IN_ECLIPSE__=1 "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/wiring_digital.c"  -o  "arduino/wiring_digital.c.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/wiring_digital.c
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/wiring_pulse.c
+Starting C compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -c -g -Os -w -ffunction-sections -fdata-sections -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/wiring_pulse.c.d" -MT"arduino/wiring_pulse.c.d" -D__IN_ECLIPSE__=1 "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/wiring_pulse.c"  -o  "arduino/wiring_pulse.c.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/wiring_pulse.c
+ 
+Building file: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c
+Starting C compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -c -g -Os -w -ffunction-sections -fdata-sections -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"arduino/wiring_shift.c.d" -MT"arduino/wiring_shift.c.d" -D__IN_ECLIPSE__=1 "C:/bin/Arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c"  -o  "arduino/wiring_shift.c.o"
+Finished building: C:/bin/Arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c
+ 
+Starting archiver
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-ar" rcs  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar"    ./arduino/CDC.cpp.o ./arduino/HID.cpp.o ./arduino/HardwareSerial.cpp.o ./arduino/HardwareSerial0.cpp.o ./arduino/HardwareSerial1.cpp.o ./arduino/HardwareSerial2.cpp.o ./arduino/HardwareSerial3.cpp.o ./arduino/IPAddress.cpp.o ./arduino/Print.cpp.o ./arduino/Stream.cpp.o ./arduino/Tone.cpp.o ./arduino/USBCore.cpp.o ./arduino/WInterrupts.c.o ./arduino/WMath.cpp.o ./arduino/WString.cpp.o ./arduino/abi.cpp.o ./arduino/hooks.c.o ./arduino/main.cpp.o ./arduino/new.cpp.o ./arduino/wiring.c.o ./arduino/wiring_analog.c.o ./arduino/wiring_digital.c.o ./arduino/wiring_pulse.c.o ./arduino/wiring_shift.c.o 
+Finished building: C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar
+ 
+Starting combiner
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega32u4  -o "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"    ./Base.cpp.o ./Logger.cpp.o ./MPU.cpp.o ./Motor.cpp.o ./StepperMotor.cpp.o ./TimerA.cpp.o ./TimerC.cpp.o ./brobot.c.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar   "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar" "-LC:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release" -lm
+Finished building: Base.elf
+ 
+Create eeprom image
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.eep"
+Finished building: Base.eep
+ 
+Create Flash image (ihex format)
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.hex"
+Finished building: Base.hex
+ 
+Building target: Base
+Printing size:
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-size" -A "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"
+C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf  :
+section            size      addr
+.data               362   8388864
+.text              9042         0
+.bss                379   8389226
+.comment             17         0
+.debug_aranges     4456         0
+.debug_info       98518         0
+.debug_abbrev     15541         0
+.debug_line       17313         0
+.debug_frame      14476         0
+.debug_str        28291         0
+.debug_loc        69679         0
+.debug_ranges      4488         0
+Total            262562
+
+
+Finished building target: Base
+ 
+21:37:57 **** Incremental Build of configuration Release for project Base ****
+make all 
+Building file: ../Motor.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Motor.cpp.d" -MT"Motor.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Motor.cpp"  -o  "Motor.cpp.o"
+Finished building: ../Motor.cpp
+ 
+Starting combiner
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega32u4  -o "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"    ./Base.cpp.o ./Logger.cpp.o ./MPU.cpp.o ./Motor.cpp.o ./StepperMotor.cpp.o ./TimerA.cpp.o ./TimerC.cpp.o ./brobot.c.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar   "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar" "-LC:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release" -lm
+Finished building: Base.elf
+ 
+Create eeprom image
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.eep"
+Finished building: Base.eep
+ 
+Create Flash image (ihex format)
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.hex"
+Finished building: Base.hex
+ 
+Building target: Base
+Printing size:
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-size" -A "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"
+C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf  :
+section            size      addr
+.data               362   8388864
+.text              9042         0
+.bss                379   8389226
+.comment             17         0
+.debug_aranges     4456         0
+.debug_info       98518         0
+.debug_abbrev     15541         0
+.debug_line       17313         0
+.debug_frame      14476         0
+.debug_str        28291         0
+.debug_loc        69679         0
+.debug_ranges      4488         0
+Total            262562
+
+
+Finished building target: Base
+ 
+21:39:29 **** Incremental Build of configuration Release for project Base ****
+make all 
+Building file: ../Base.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Base.cpp.d" -MT"Base.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Base.cpp"  -o  "Base.cpp.o"
+Finished building: ../Base.cpp
+ 
+Starting combiner
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega32u4  -o "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"    ./Base.cpp.o ./Logger.cpp.o ./MPU.cpp.o ./Motor.cpp.o ./StepperMotor.cpp.o ./TimerA.cpp.o ./TimerC.cpp.o ./brobot.c.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar   "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar" "-LC:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release" -lm
+Finished building: Base.elf
+ 
+Create eeprom image
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.eep"
+Finished building: Base.eep
+ 
+Create Flash image (ihex format)
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.hex"
+Finished building: Base.hex
+ 
+Building target: Base
+Printing size:
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-size" -A "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"
+C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf  :
+section            size      addr
+.data               362   8388864
+.text              9000         0
+.bss                379   8389226
+.comment             17         0
+.debug_aranges     4456         0
+.debug_info       98477         0
+.debug_abbrev     15508         0
+.debug_line       17308         0
+.debug_frame      14476         0
+.debug_str        28291         0
+.debug_loc        69679         0
+.debug_ranges      4488         0
+Total            262441
+
+
+Finished building target: Base
+ 
+21:39:47 **** Incremental Build of configuration Release for project Base ****
+make all 
+Building file: ../Base.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Base.cpp.d" -MT"Base.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Base.cpp"  -o  "Base.cpp.o"
+Finished building: ../Base.cpp
+ 
+Starting combiner
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega32u4  -o "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"    ./Base.cpp.o ./Logger.cpp.o ./MPU.cpp.o ./Motor.cpp.o ./StepperMotor.cpp.o ./TimerA.cpp.o ./TimerC.cpp.o ./brobot.c.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar   "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar" "-LC:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release" -lm
+Finished building: Base.elf
+ 
+Create eeprom image
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.eep"
+Finished building: Base.eep
+ 
+Create Flash image (ihex format)
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.hex"
+Finished building: Base.hex
+ 
+Building target: Base
+Printing size:
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-size" -A "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"
+C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf  :
+section            size      addr
+.data               362   8388864
+.text              8990         0
+.bss                379   8389226
+.comment             17         0
+.debug_aranges     4456         0
+.debug_info       98424         0
+.debug_abbrev     15513         0
+.debug_line       17294         0
+.debug_frame      14476         0
+.debug_str        28291         0
+.debug_loc        69679         0
+.debug_ranges      4488         0
+Total            262369
+
+
+Finished building target: Base
+ 
+21:40:12 **** Incremental Build of configuration Release for project Base ****
+make all 
+Building file: ../Base.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Base.cpp.d" -MT"Base.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Base.cpp"  -o  "Base.cpp.o"
+Finished building: ../Base.cpp
+ 
+Starting combiner
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega32u4  -o "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"    ./Base.cpp.o ./Logger.cpp.o ./MPU.cpp.o ./Motor.cpp.o ./StepperMotor.cpp.o ./TimerA.cpp.o ./TimerC.cpp.o ./brobot.c.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar   "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar" "-LC:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release" -lm
+Finished building: Base.elf
+ 
+Create eeprom image
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.eep"
+Finished building: Base.eep
+ 
+Create Flash image (ihex format)
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.hex"
+Finished building: Base.hex
+ 
+Building target: Base
+Printing size:
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-size" -A "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"
+C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf  :
+section            size      addr
+.data               362   8388864
+.text              8990         0
+.bss                379   8389226
+.comment             17         0
+.debug_aranges     4456         0
+.debug_info       98422         0
+.debug_abbrev     15513         0
+.debug_line       17294         0
+.debug_frame      14476         0
+.debug_str        28291         0
+.debug_loc        69679         0
+.debug_ranges      4488         0
+Total            262367
+
+
+Finished building target: Base
+ 
+21:40:44 **** Incremental Build of configuration Release for project Base ****
+make all 
+Building file: ../Base.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Base.cpp.d" -MT"Base.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Base.cpp"  -o  "Base.cpp.o"
+Finished building: ../Base.cpp
+ 
+Starting combiner
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega32u4  -o "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"    ./Base.cpp.o ./Logger.cpp.o ./MPU.cpp.o ./Motor.cpp.o ./StepperMotor.cpp.o ./TimerA.cpp.o ./TimerC.cpp.o ./brobot.c.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar   "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar" "-LC:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release" -lm
+Finished building: Base.elf
+ 
+Create eeprom image
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.eep"
+Finished building: Base.eep
+ 
+Create Flash image (ihex format)
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.hex"
+Finished building: Base.hex
+ 
+Building target: Base
+Printing size:
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-size" -A "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"
+C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf  :
+section            size      addr
+.data               362   8388864
+.text              8990         0
+.bss                379   8389226
+.comment             17         0
+.debug_aranges     4456         0
+.debug_info       98424         0
+.debug_abbrev     15513         0
+.debug_line       17294         0
+.debug_frame      14476         0
+.debug_str        28291         0
+.debug_loc        69679         0
+.debug_ranges      4488         0
+Total            262369
+
+
+Finished building target: Base
+ 
+21:42:26 **** Incremental Build of configuration Release for project Base ****
+make all 
+Building file: ../Base.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Base.cpp.d" -MT"Base.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Base.cpp"  -o  "Base.cpp.o"
+Finished building: ../Base.cpp
+ 
+Starting combiner
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega32u4  -o "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"    ./Base.cpp.o ./Logger.cpp.o ./MPU.cpp.o ./Motor.cpp.o ./StepperMotor.cpp.o ./TimerA.cpp.o ./TimerC.cpp.o ./brobot.c.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar   "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar" "-LC:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release" -lm
+Finished building: Base.elf
+ 
+Create eeprom image
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.eep"
+Finished building: Base.eep
+ 
+Create Flash image (ihex format)
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.hex"
+Finished building: Base.hex
+ 
+Building target: Base
+Printing size:
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-size" -A "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"
+C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf  :
+section            size      addr
+.data               362   8388864
+.text              9180         0
+.bss                379   8389226
+.comment             17         0
+.debug_aranges     4456         0
+.debug_info       99031         0
+.debug_abbrev     15508         0
+.debug_line       17323         0
+.debug_frame      14476         0
+.debug_str        28291         0
+.debug_loc        69679         0
+.debug_ranges      4488         0
+Total            263190
+
+
+Finished building target: Base
+ 
+21:44:06 **** Incremental Build of configuration Release for project Base ****
+make all 
+Building file: ../Base.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Base.cpp.d" -MT"Base.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Base.cpp"  -o  "Base.cpp.o"
+Finished building: ../Base.cpp
+ 
+Starting combiner
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega32u4  -o "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"    ./Base.cpp.o ./Logger.cpp.o ./MPU.cpp.o ./Motor.cpp.o ./StepperMotor.cpp.o ./TimerA.cpp.o ./TimerC.cpp.o ./brobot.c.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar   "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar" "-LC:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release" -lm
+Finished building: Base.elf
+ 
+Create eeprom image
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.eep"
+Finished building: Base.eep
+ 
+Create Flash image (ihex format)
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.hex"
+Finished building: Base.hex
+ 
+Building target: Base
+Printing size:
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-size" -A "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"
+C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf  :
+section            size      addr
+.data               362   8388864
+.text              9180         0
+.bss                379   8389226
+.comment             17         0
+.debug_aranges     4456         0
+.debug_info       99031         0
+.debug_abbrev     15508         0
+.debug_line       17323         0
+.debug_frame      14476         0
+.debug_str        28291         0
+.debug_loc        69679         0
+.debug_ranges      4488         0
+Total            263190
+
+
+Finished building target: Base
+ 
+21:46:42 **** Incremental Build of configuration Release for project Base ****
+make all 
+Building file: ../Base.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Base.cpp.d" -MT"Base.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Base.cpp"  -o  "Base.cpp.o"
+Finished building: ../Base.cpp
+ 
+Starting combiner
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega32u4  -o "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"    ./Base.cpp.o ./Logger.cpp.o ./MPU.cpp.o ./Motor.cpp.o ./StepperMotor.cpp.o ./TimerA.cpp.o ./TimerC.cpp.o ./brobot.c.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar   "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar" "-LC:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release" -lm
+Finished building: Base.elf
+ 
+Create eeprom image
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.eep"
+Finished building: Base.eep
+ 
+Create Flash image (ihex format)
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.hex"
+Finished building: Base.hex
+ 
+Building target: Base
+Printing size:
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-size" -A "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"
+C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf  :
+section            size      addr
+.data               362   8388864
+.text              9000         0
+.bss                379   8389226
+.comment             17         0
+.debug_aranges     4456         0
+.debug_info       98477         0
+.debug_abbrev     15508         0
+.debug_line       17308         0
+.debug_frame      14476         0
+.debug_str        28291         0
+.debug_loc        69679         0
+.debug_ranges      4488         0
+Total            262441
+
+
+Finished building target: Base
+ 
+21:47:03 **** Incremental Build of configuration Release for project Base ****
+make all 
+Building file: ../Base.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Base.cpp.d" -MT"Base.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Base.cpp"  -o  "Base.cpp.o"
+Finished building: ../Base.cpp
+ 
+Starting combiner
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega32u4  -o "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"    ./Base.cpp.o ./Logger.cpp.o ./MPU.cpp.o ./Motor.cpp.o ./StepperMotor.cpp.o ./TimerA.cpp.o ./TimerC.cpp.o ./brobot.c.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar   "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar" "-LC:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release" -lm
+Finished building: Base.elf
+ 
+Create eeprom image
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.eep"
+Finished building: Base.eep
+ 
+Create Flash image (ihex format)
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.hex"
+Finished building: Base.hex
+ 
+Building target: Base
+Printing size:
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-size" -A "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"
+C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf  :
+section            size      addr
+.data               362   8388864
+.text              9000         0
+.bss                379   8389226
+.comment             17         0
+.debug_aranges     4456         0
+.debug_info       98477         0
+.debug_abbrev     15508         0
+.debug_line       17308         0
+.debug_frame      14476         0
+.debug_str        28291         0
+.debug_loc        69679         0
+.debug_ranges      4488         0
+Total            262441
+
+
+Finished building target: Base
+ 
+21:47:55 **** Incremental Build of configuration Release for project Base ****
+make all 
+Building file: ../Base.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Base.cpp.d" -MT"Base.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Base.cpp"  -o  "Base.cpp.o"
+Finished building: ../Base.cpp
+ 
+Starting combiner
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega32u4  -o "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"    ./Base.cpp.o ./Logger.cpp.o ./MPU.cpp.o ./Motor.cpp.o ./StepperMotor.cpp.o ./TimerA.cpp.o ./TimerC.cpp.o ./brobot.c.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar   "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar" "-LC:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release" -lm
+Finished building: Base.elf
+ 
+Create eeprom image
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.eep"
+Finished building: Base.eep
+ 
+Create Flash image (ihex format)
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.hex"
+Finished building: Base.hex
+ 
+Building target: Base
+Printing size:
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-size" -A "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"
+C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf  :
+section            size      addr
+.data               362   8388864
+.text              9072         0
+.bss                379   8389226
+.comment             17         0
+.debug_aranges     4456         0
+.debug_info       98695         0
+.debug_abbrev     15508         0
+.debug_line       17314         0
+.debug_frame      14476         0
+.debug_str        28291         0
+.debug_loc        69679         0
+.debug_ranges      4488         0
+Total            262737
+
+
+Finished building target: Base
+ 
+21:49:54 **** Incremental Build of configuration Release for project Base ****
+make all 
+Building file: ../Base.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Base.cpp.d" -MT"Base.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Base.cpp"  -o  "Base.cpp.o"
+Finished building: ../Base.cpp
+ 
+Starting combiner
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega32u4  -o "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"    ./Base.cpp.o ./Logger.cpp.o ./MPU.cpp.o ./Motor.cpp.o ./StepperMotor.cpp.o ./TimerA.cpp.o ./TimerC.cpp.o ./brobot.c.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar   "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar" "-LC:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release" -lm
+Finished building: Base.elf
+ 
+Create eeprom image
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.eep"
+Finished building: Base.eep
+ 
+Create Flash image (ihex format)
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.hex"
+Finished building: Base.hex
+ 
+Building target: Base
+Printing size:
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-size" -A "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"
+C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf  :
+section            size      addr
+.data               362   8388864
+.text              9036         0
+.bss                379   8389226
+.comment             17         0
+.debug_aranges     4456         0
+.debug_info       98585         0
+.debug_abbrev     15508         0
+.debug_line       17313         0
+.debug_frame      14476         0
+.debug_str        28291         0
+.debug_loc        69679         0
+.debug_ranges      4488         0
+Total            262590
+
+
+Finished building target: Base
+ 
+21:51:35 **** Incremental Build of configuration Release for project Base ****
+make all 
+Building file: ../Base.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Base.cpp.d" -MT"Base.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Base.cpp"  -o  "Base.cpp.o"
+Finished building: ../Base.cpp
+ 
+Starting combiner
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega32u4  -o "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"    ./Base.cpp.o ./Logger.cpp.o ./MPU.cpp.o ./Motor.cpp.o ./StepperMotor.cpp.o ./TimerA.cpp.o ./TimerC.cpp.o ./brobot.c.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar   "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar" "-LC:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release" -lm
+Finished building: Base.elf
+ 
+Create eeprom image
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.eep"
+Finished building: Base.eep
+ 
+Create Flash image (ihex format)
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.hex"
+Finished building: Base.hex
+ 
+Building target: Base
+Printing size:
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-size" -A "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"
+C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf  :
+section            size      addr
+.data               362   8388864
+.text              9000         0
+.bss                379   8389226
+.comment             17         0
+.debug_aranges     4456         0
+.debug_info       98477         0
+.debug_abbrev     15508         0
+.debug_line       17308         0
+.debug_frame      14476         0
+.debug_str        28291         0
+.debug_loc        69679         0
+.debug_ranges      4488         0
+Total            262441
+
+
+Finished building target: Base
+ 
+21:52:24 **** Incremental Build of configuration Release for project Base ****
+make all 
+Building file: ../Base.cpp
+Starting C++ compile
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-g++" -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega32u4 -DF_CPU=16000000L -DARDUINO=161 -DARDUINO_AVR_LEONARDO -DARDUINO_ARCH_AVR  -DUSB_VID=0x2341 -DUSB_PID=0x8036 '-DUSB_MANUFACTURER="Unknown"' '-DUSB_PRODUCT="Arduino Leonardo"'   -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\tools\avr\avr\include" -I"C:\bin\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include" -I"C:\bin\Arduino\hardware\arduino\avr\cores\arduino" -I"C:\bin\Arduino\hardware\arduino\avr\variants\leonardo" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire" -I"C:\bin\Arduino\hardware\arduino\avr\libraries\Wire\utility" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\I2Cdev" -I"C:\Users\Martin\Documents\Robot\Robby\code\eclipse\robby\Base\Libraries\MPU6050" -MMD -MP -MF"Base.cpp.d" -MT"Base.cpp.d" -D__IN_ECLIPSE__=1 -x c++ "../Base.cpp"  -o  "Base.cpp.o"
+Finished building: ../Base.cpp
+ 
+Starting combiner
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-gcc" -w -Os -Wl,--gc-sections -mmcu=atmega32u4  -o "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"    ./Base.cpp.o ./Logger.cpp.o ./MPU.cpp.o ./Motor.cpp.o ./StepperMotor.cpp.o ./TimerA.cpp.o ./TimerC.cpp.o ./brobot.c.o  ./Libraries/Wire/utility/twi.c.o  ./Libraries/Wire/Wire.cpp.o  ./Libraries/MPU6050/MPU6050.cpp.o  ./Libraries/JJROBOTS_BROBOT/JJROBOTS_BROBOT.cpp.o  ./Libraries/I2Cdev/I2Cdev.cpp.o   C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar   "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/arduino.ar" "-LC:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release" -lm
+Finished building: Base.elf
+ 
+Create eeprom image
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.eep"
+Finished building: Base.eep
+ 
+Create Flash image (ihex format)
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-objcopy" -O ihex -R .eeprom  "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf" "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.hex"
+Finished building: Base.hex
+ 
+Building target: Base
+Printing size:
+"C:/bin/Arduino/hardware/tools/avr/bin/avr-size" -A "C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf"
+C:/Users/Martin/Documents/Robot/Robby/code/eclipse/robby/Base/Release/Base.elf  :
+section            size      addr
+.data               362   8388864
+.text              9036         0
+.bss                379   8389226
+.comment             17         0
+.debug_aranges     4456         0
+.debug_info       98585         0
+.debug_abbrev     15508         0
+.debug_line       17311         0
+.debug_frame      14476         0
+.debug_str        28291         0
+.debug_loc        69679         0
+.debug_ranges      4488         0
+Total            262588
+
+
+Finished building target: Base
+ 

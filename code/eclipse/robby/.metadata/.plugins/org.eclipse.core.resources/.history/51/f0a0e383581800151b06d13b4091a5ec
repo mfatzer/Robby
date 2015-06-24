@@ -1,0 +1,32 @@
+/*
+ * Motor.cpp
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#include "Motor.h"
+
+
+void ISR() {
+	motor1.step();
+}
+
+
+Motor::Motor(const char* name, const int stepPin, const int directionPin, const bool reverseDirection, TimerIf& timer)
+: m_stepperMotor(name, stepPin, directionPin, reverseDirection), m_timer(timer)
+{
+}
+
+Motor::~Motor() {
+}
+
+void Motor::setup() {
+	m_timer.initialize();
+	m_timer.setISR(this);
+	m_timer.enableInterrupt();
+}
+
+void Motor::execute() {
+
+}

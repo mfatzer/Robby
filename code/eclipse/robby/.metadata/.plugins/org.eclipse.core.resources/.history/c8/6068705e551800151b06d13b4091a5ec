@@ -1,0 +1,27 @@
+/*
+ * Motor.h
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#ifndef MOTOR_H_
+#define MOTOR_H_
+
+#include "TimerIf.h";
+#include "StepperMotor.h"
+
+
+class Motor {
+public:
+	Motor(const char* name, const int stepPin, const int directionPin, const bool reverseDirection, TimerIf& timer);
+	virtual ~Motor();
+
+	void setup();
+
+private:
+	const StepperMotor m_stepperMotor;
+	TimerIf const& m_timer;
+};
+
+#endif /* MOTOR_H_ */

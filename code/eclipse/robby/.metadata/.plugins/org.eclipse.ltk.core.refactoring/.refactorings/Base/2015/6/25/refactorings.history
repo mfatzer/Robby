@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Base/brobot&apos; to &apos;brobot.c&apos;" description="Rename resource &apos;brobot&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="brobot" name="brobot.c" stamp="1434823544526" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Base/TimerIf&apos; to &apos;TimerIf.h&apos;" description="Rename resource &apos;TimerIf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="TimerIf" name="TimerIf.h" stamp="1434917240545" updateReferences="true"/>
+</session>

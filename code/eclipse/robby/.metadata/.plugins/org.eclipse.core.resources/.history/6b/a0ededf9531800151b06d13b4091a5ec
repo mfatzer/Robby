@@ -1,0 +1,17 @@
+/*
+ * Motor.h
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#ifndef MOTOR_H_
+#define MOTOR_H_
+
+class Motor {
+public:
+	Motor();
+	virtual ~Motor();
+};
+
+#endif /* MOTOR_H_ */

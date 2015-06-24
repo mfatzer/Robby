@@ -1,0 +1,26 @@
+/*
+ * Logger.cpp
+ *
+ *  Created on: 21.06.2015
+ *      Author: Martin
+ */
+
+#include "Logger.h"
+#include "Arduino.h"
+
+
+Logger::Logger(const char* name)
+: m_name(name)
+{
+}
+
+Logger::~Logger() {
+	// TODO Auto-generated destructor stub
+}
+
+void Logger::log(char* info) {
+	Serial.print(m_name);
+	Serial.print(":");
+	Serial.println(info);
+}
+
