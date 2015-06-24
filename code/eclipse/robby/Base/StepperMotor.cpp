@@ -80,19 +80,7 @@ void delay_1us()
 	"nop" "\n\t"
 	"nop" "\n\t"
 	"nop" "\n\t"
-	"nop" "\n\t"
-    "nop" "\n\t"
-    "nop" "\n\t"
-    "nop" "\n\t"
-    "nop" "\n\t"
-    "nop" "\n\t"
-    "nop" "\n\t"
-    "nop" "\n\t"
-    "nop" "\n\t"
-    "nop" "\n\t"
-    "nop" "\n\t"
-    "nop" "\n\t"
-    "nop");
+	"nop" "\n\t");
 }
 
 MotorDirection reverseDirection(MotorDirection dir) {
